@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(./images/21.jpg);
+}
+.btn{
+    margin-top: 20%;
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 25px;
+    font-size: medium;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(61, 231, 46, 0.445);
+}
+.btn:hover{
+    background-color: rgb(61, 231, 46);
+}

@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background-size: cover;
+    background-image: url(./images/bg.jpg);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 10% 30%;
+
+}
+.display{
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+}
+.btns{
+    margin-top: 4rem;
+    display: flex;
+    gap: 13%;
+    padding: 0% 1%;
+}
+.btn{
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.582);
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: gray;
+    font-size: x-large;
+}
